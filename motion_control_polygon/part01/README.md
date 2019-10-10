@@ -1,4 +1,6 @@
 # Motion Control Part 01
+Bem vindo a primera parte dos tutoriais de teste e aplicações com os assets da ootii.
+Nessa primeira parte configuraremos o cenario e aprenderemos os basicos da ferramenta
 
 ## Preparação de Cenário
 Dentro do projeto na Unity crie uma pasta Plugins e mova para ela as pastas ootii, polygon town e _TerrainAutoUpgrade
