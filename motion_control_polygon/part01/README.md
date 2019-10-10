@@ -1,4 +1,4 @@
-# Motion Control Part 01
+# Motion Control Parte 01
 Bem vindo a primera parte dos tutoriais de teste e aplicações com os assets da ootii.
 Nessa primeira parte configuraremos o cenario e aprenderemos os basicos da ferramenta
 
