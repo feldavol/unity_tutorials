@@ -31,15 +31,19 @@ O plane se chamará ‘Ground’ e terá as seguintes configurações
 Os cubos se chamaram ‘Walls” e cada um terá as configurações a seguir
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/08.PNG)
+
 Primeira ‘Wall”
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/09.PNG)
+
 Segunda ‘Wall’
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/10.PNG)
+
 Terceira ‘Wall”
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/11.PNG)
+
 Quarta ‘Wall’
 
 #### Preparação de Personagem
