@@ -24,3 +24,8 @@ E o link da pagina da Synty Studios e seus modelos 3D
 * [Synty Studios](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519?q=Synty%20Studios&orderBy=0)
 
 
+## PARTES
+
+* [Motion Control PARTE 01](https://github.com/feldavol/unity_tutorials/tree/master/motion_control_polygon/part01)
+
+
