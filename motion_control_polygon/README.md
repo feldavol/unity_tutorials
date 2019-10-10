@@ -1,10 +1,10 @@
 
-### Motion Control Basicos Tutorial
+# Motion Control Basicos Tutorial
 
-#### Introdução
+## Introdução
 Nesse texto será mostrado como fazer o uso das ferramentas da **OOTII**, **Motion Control** e **Camera Control**  em um modelo 3D da  desenvolvedora Synty Studios pacote Polygon City Characters.
 
-#### Importação
+## Importação
 Crie um novo projeto 3D e comece importando os pacotes de asset store em seus assets de acordo com o que  segue abaixo.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/01.PNG)
@@ -15,7 +15,7 @@ Agora que você entrou em assets procure e importe os pacotes a seguir. Caso nã
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/03.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/04.PNG)
 
-#### Preparação de Cenário
+## Preparação de Cenário
 Dentro do projeto na Unity crie uma pasta Plugins e mova para ela as pastas ootii, polygon town e _TerrainAutoUpgrade
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/05.PNG)
@@ -46,7 +46,7 @@ Terceira ‘Wall”
 
 Quarta ‘Wall’
 
-#### Preparação de Personagem
+## Preparação de Personagem
 
 Agora escolha um dos personagens dentro do prefab da Polygon de acordo com a imagem aberto você pode escolher qualquer um, sem se preocupar muito
 
@@ -69,7 +69,7 @@ Perceba que ao adicionar o Motion Controller ele também adiciona um Action Cont
 
 Mas é claro que pra ele achar esses caras eles precisam existir então vamos criá-los crie 2 objetos vazios e os nomeie Input Source e Camera Rig, (O animator será a partir do componente que está usando o motion control)
 
-##### Input Source
+### Input Source
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/16.PNG)
 
@@ -77,7 +77,7 @@ No objeto “InputSource’ vamos adicionar o componente ‘Unity Input Source�
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/17.PNG)
 
-##### Camera Rig & Camera Controller
+### Camera Rig & Camera Controller
 
 Na camera Rig arraste a Main Camera pra dentro dela(Lembre se ZERAR todos os valores de transformers da Main Camera), agora no objeto Camera Rig adicione o componente ‘Camera Controller.
 
@@ -105,7 +105,7 @@ Para configurá-los é só clicar em um deles que a caixa com as configurações
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/20b.PNG)
 
-##### Animações
+### Animações
 
 Agora volte para o Player e em motion controller clique em advanced 
 
@@ -138,7 +138,7 @@ Por enquanto a única que configuramos é a Walk Run Strafe com Walk Speed  =  2
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/23.PNG)
 
-#### Proximo do FIM
+## Proximo do FIM
 Agora vamos transformar nosso player em um prefab então crie uma pasta Prefab e arrete ele pra dentro dela , como esse personagem é originalmente um prefab do POLYGON aparecerá um POPUP , clique para criar um Original Prefab
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/EXTRA.PNG)
