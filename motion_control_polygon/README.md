@@ -148,7 +148,11 @@ Pronto temos um personagem com os movimentos básicos de movimentação, comando
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/24.PNG)
 
 MOVE  - w a s d  ou setas 
+
 JUMP - space
+
 RUN  - SHIFT (Se walk for Default)
-WALK  - SHIFT (Se Run for Default) 
+
+WALK  - SHIFT (Se Run for Default)
+
 Running Jump - durante a corrida Space
