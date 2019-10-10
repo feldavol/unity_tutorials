@@ -1,4 +1,4 @@
-# Unity Tutorial E Playgrounds
+# Unity Tutoriais & Playgrounds
 
 ## Sejam bem vindos.
 
