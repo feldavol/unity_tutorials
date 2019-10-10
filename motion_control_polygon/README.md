@@ -17,11 +17,11 @@ Agora que você entrou em assets procure e importe os pacotes a seguir. Caso nã
 
 Segue os Links da paginas na Asset Store das ferramentas que serão usadas aqui 
 
-[Camera Control](https://assetstore.unity.com/packages/tools/camera/camera-controller-13768)
-[Motion Control](https://assetstore.unity.com/packages/templates/systems/third-person-motion-controller-15672)
+*[Camera Control](https://assetstore.unity.com/packages/tools/camera/camera-controller-13768)
+*[Motion Control](https://assetstore.unity.com/packages/templates/systems/third-person-motion-controller-15672)
 
 E o link da pagina da Synty Studios e seus modelos 3D
 
-[Synty Studios](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519?q=Synty%20Studios&orderBy=0)
+*[Synty Studios](https://assetstore.unity.com/packages/essentials/tutorial-projects/vr-samples-51519?q=Synty%20Studios&orderBy=0)
 
 
