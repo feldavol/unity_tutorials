@@ -33,6 +33,10 @@ Terceira ‘Wall”
 
 Quarta ‘Wall’
 
+E voce terá algo assim
+(https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/11.PNG)
+
+
 ## Preparação de Personagem
 
 Agora escolha um dos personagens dentro do prefab da Polygon de acordo com a imagem aberto você pode escolher qualquer um, sem se preocupar muito
@@ -43,6 +47,11 @@ Depois de escolher o personagem  e arrastar ele pra “Scene” mude o nome do o
 
 ![Image of Motion Controll
 Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/13.PNG)
+
+Entaão voce terá isso
+
+![Image of Motion Controll
+Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/13a.PNG)
 
 Perceba que ao adicionar o Motion Controller ele também adiciona um Action Controller por ser uma dependência dele, deixaremos o Actor Controller no padrão e não mexemos nele aqui.  Clique em “Setup Input Entries” para configurar automaticamente o “Input Manager” do Unity, isso vai configurar de acordo com as necessidades do Motion Controller.
 
@@ -126,7 +135,7 @@ Por enquanto a única que configuramos é a Walk Run Strafe com Walk Speed  =  2
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/23.PNG)
 
 ## Proximo do FIM
-Agora vamos transformar nosso player em um prefab então crie uma pasta Prefab e arrete ele pra dentro dela , como esse personagem é originalmente um prefab do POLYGON aparecerá um POPUP , clique para criar um Original Prefab
+Agora vamos transformar nosso player em um prefab então crie uma pasta Prefab e arraste ele pra dentro dela , como esse personagem é originalmente um prefab do POLYGON aparecerá um POPUP , clique para criar um Original Prefab
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/EXTRA.PNG)
 
