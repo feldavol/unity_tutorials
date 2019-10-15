@@ -34,7 +34,7 @@ Terceira ‘Wall”
 Quarta ‘Wall’
 
 E voce terá algo assim
-(https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/11.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/Walls.PNG)
 
 
 ## Preparação de Personagem
