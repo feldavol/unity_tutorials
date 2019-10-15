@@ -34,6 +34,7 @@ Terceira ‘Wall”
 Quarta ‘Wall’
 
 E voce terá algo assim
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/Walls.PNG)
 
 
@@ -121,12 +122,12 @@ Clique agora no + de Motions
 
 Com isso agora você terá essa janela, com todas as animações do Motion Controller
 
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/22.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/221.PNG)
 
 
 Nós usaremos as animações de acordo com as marcadas na imagem
 
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/22a.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/22a1.PNG)
 
 Por enquanto a única que configuramos é a Walk Run Strafe com Walk Speed  =  2 e Run Speed = 5 caso queira algo mais rápido sinta-se livre mas não exagere.
 
