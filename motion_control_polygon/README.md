@@ -1,7 +1,7 @@
 
 # Motion Control Basicos Tutorial
 
-Nesse tutorial será mostrado como fazer o uso das ferramentas da **OOTII**, **Motion Control** e **Camera Control**  em um modelo 3D da  desenvolvedora Synty Studios pacote Polygon City Characters.Além do uso de arvore de comportamento(Behaviour Tree) e arvores de dialogo(Dialogue Trees) fornecidas pelo Asset **Node Canvas** da Paradox Notion
+Nesse tutorial será mostrado como fazer o uso das ferramentas da **OOTII**, **Motion Control** e **Camera Control**  em um modelo 3D da  desenvolvedora Synty Studios pacote Polygon City Characters. Além do uso de arvore de comportamento(Behaviour Tree) e arvores de dialogo(Dialogue Trees) fornecidas pelo Asset **Node Canvas** da Paradox Notion
 
 ## Importação
 Crie um novo projeto 3D e comece importando os pacotes de asset store em seus assets de acordo com o que  segue abaixo.
