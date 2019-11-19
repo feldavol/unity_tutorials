@@ -29,5 +29,5 @@ E o link da pagina da Synty Studios e seus modelos 3D
 ## PARTES
 
 * [Motion Control PARTE 01 - MOVIMENTAÇÃO](https://github.com/feldavol/unity_tutorials/tree/master/motion_control_polygon/part01)
-* [Motion Control PARTE 02 - DIALOGO NPC)](https://github.com/feldavol/unity_tutorials/tree/master/motion_control_polygon/part02)
+* [Motion Control PARTE 02 - DIALOGO NPC](https://github.com/feldavol/unity_tutorials/tree/master/motion_control_polygon/part02)
 
