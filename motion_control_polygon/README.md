@@ -13,11 +13,13 @@ Agora que você entrou em assets procure e importe os pacotes a seguir. Caso nã
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part01/02.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part01/03.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part01/04.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/01.PNG)
 
 Segue os Links da paginas na Asset Store das ferramentas que serão usadas aqui 
 
-* [Camera Control](https://assetstore.unity.com/packages/tools/camera/camera-controller-13768)
-* [Motion Control](https://assetstore.unity.com/packages/templates/systems/third-person-motion-controller-15672)
+* [Camera Control - OOTII](https://assetstore.unity.com/packages/tools/camera/camera-controller-13768)
+* [Motion Control - OOTII](https://assetstore.unity.com/packages/templates/systems/third-person-motion-controller-15672)
+* [Node Canvas - PARADOX NOTION](https://assetstore.unity.com/packages/tools/visual-scripting/nodecanvas-14914)
 
 E o link da pagina da Synty Studios e seus modelos 3D
 
