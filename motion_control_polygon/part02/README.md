@@ -1,6 +1,26 @@
+#  Motion Control Tutorial PARTE 2
+
+Continuando a série de tutoriais envolvendo Motion Control para criar uma cena viva e interativa. Nessa segunda parte usaremos **Dialogue Tree** e **Behaviour Tree** dentro do asset **Node Canvas** para criar um diálogo com NPC, isso será feito passo a passo para seu melhor entendimento.
+
+Link parte 01
+* [Motion Control PARTE 01 - MOVIMENTAÇÃO](https://github.com/feldavol/unity_tutorials/tree/master/motion_control_polygon/part01)
+
+##  Node Canvas
+  Node Canvas é um conjunto de 3 ferramentas desenvolvidas pela **PARADOX NOTION** sendo as 3 incluídas nesse pacote.
+Behaviour Tree - Ferramenta de acionamento e controle de comportamento
+Dialogue Tree - Ferramenta de fluxo de diálogo
+State Machine - Ferramenta de controle de estado
+
+## Importação
+
+O pacote que deve ser importado é de acordo com a imagem a seguir
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/01.PNG)
+
+E então a seguinte pasta deve aparecer nos seus assets
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/02.PNG)
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/03.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/04.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/05.PNG)
