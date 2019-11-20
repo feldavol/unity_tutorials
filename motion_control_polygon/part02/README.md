@@ -7,41 +7,100 @@ Link parte 01
 
 ##  Node Canvas
   Node Canvas é um conjunto de 3 ferramentas desenvolvidas pela **PARADOX NOTION** sendo as 3 incluídas nesse pacote.
-Behaviour Tree - Ferramenta de acionamento e controle de comportamento
-Dialogue Tree - Ferramenta de fluxo de diálogo
-State Machine - Ferramenta de controle de estado
+* Behaviour Tree - Ferramenta de acionamento e controle de comportamento.
+* Dialogue Tree - Ferramenta de fluxo de diálogo.
+* State Machine - Ferramenta de controle de estado.
 
 ## Importação
 
-O pacote que deve ser importado é de acordo com a imagem a seguir
+O pacote que deve ser importado é de acordo com a imagem a seguir.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/01.PNG)
 
-E então a seguinte pasta deve aparecer nos seus assets
+E então a seguinte pasta deve aparecer nos seus assets.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/02.PNG)
 
+## Criando Dialogue Trees
+
+Primeiro crie um Game Object chamado **Dialogues** é nele que colocaremos os objetos de diálogo da cena.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/03.PNG)
+
+Depois para criar um diálogo vá em Tools> Paradox Notion>Create>Dialogue Tree Object.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/04.PNG)
+
+Em seguida mova a Dialogue Tree para dentro do Objeto Dialogues de antes.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/05.PNG)
+
+Agora vamos editar essa Dialogue Tree. Clique no objeto Dialogue Tree e depois clique em Edit Dialogue Tree.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/06.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/07.PNG)
+
+E então teremos a seguinte tela.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/08.PNG)
+
+ Clicando com o botão direito de nesta tela teremos a seguinte pop up e nela o botão Say é o mais importante ou pelo menos o mais usado já que essa é a tela de diálogos.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/09.PNG)
+
+Logo abaixo temos um botão de Task Action que aciona uma ação durante o diálogo.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/10.PNG)
+
+Logo em seguida temos a pasta Branch que é uma pasta onde podemos encontrar tipos de caixa para diálogo diferente.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/11.PNG)
+
+Como as que temos a seguir cada uma tem uma função diferente:
+* Multiple Choice  - Diálogo com múltipla escolha
+* Multiple Task Condition - Caixa com múltiplas ações
+* Probability Selector - Caixa de que seleciona um ramo ligado a ele de acordo com a chance de acontecer aquele ramo pode variar 
+* Task Condition - Executa um ramo se uma condição for verdadeira
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/11a.PNG)
+
+A pasta Control e para controlar o fluxo do diálogo e decide se será pulado uma parte ou o diálogo encerra.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/12.PNG)
+
+O FINISH encerra o diálogo e JUMP pula para uma outra parte do diálogo de acordo com a identificação que tem nas caixas de diálogo
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/12a.PNG)
+
+Em Nested você pode usar  para vincular uma Sub Dialogue Tree em uma Diálogo
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/13.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/13a.PNG)
+
+Usando o Botão abaixo.
+
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/13a.PNG).
+
+` Essas são as opções que temos para criar um diálogo,  não explorarei todos aqui mas uma parte será usada `
+
+### Montando um Diálogo
+
+
+
+
+
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14.PNG)
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14a.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14b.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14c.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/15.PNG)
+
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/07.PNG)
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/15a.PNG)
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16a.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16b.PNG)
@@ -138,6 +197,7 @@ E então a seguinte pasta deve aparecer nos seus assets
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/35a.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/35.PNG)
+
 
 
 
