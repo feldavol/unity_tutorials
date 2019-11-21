@@ -168,38 +168,106 @@ Você deve ter algo parecido com isso.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19d.PNG)
 
-
-
-
-
-
-
-
-
-
+Agora precisamos adicionar algumas coisas ao Player 
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20a.PNG)
+
+Troque a Tag do Player e clique em ADD COMPONENT
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20b.PNG)
+
+Em seguida adicione um *Rigidbody* e um * capsule colíder* a deixei com as configurações a seguir.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20c.PNG)
+
+
+## Configurando NPCs
+Crie um Game Object chamado NPCs e ponha ele na posição (0,0,0)
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/21.PNG)
+
+Vamos na pasta de Characters do Polygon Town e escolha um que você preferir.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22.PNG)
+
+Coloque ele dentro do Game Object NPC e mude a posição do X e Z só pra ele nao ficar em cima do player.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22a.PNG)
+
+Agora nesse objeto vamos adicionar alguns outros componentes.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22b.PNG)
+
+Um dialogue Actor com o nome que você quiser
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22c.PNG)
+
+Depois uma sphere collider marcada como Trigger e com a configuração abaixo.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22d.PNG)
+
+Agora você vai adicionar esse Dialogue actor na sua dialogue tree igual você fez com o player só clicar em add actor parameter na dialogue tree
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/23.PNG)
+
+e arrastar ele para o espaço do dialogue actor.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/23a.PNG)
+
+Ponha o nome do interlocutor ele deve ficar algo parecido com isso.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/23b.PNG)
+
+Agora vamos adicionar um novo componente no NPC que você adiciono.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24.PNG)
+
+Vamos adicionar uma Behaviour Tree junto dela vem um Blackboard que serve para adicionar variáveis.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24a.PNG)
+
+Agora clique em create new para criar uma nova behaviour tree.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24b.PNG)
+
+Você verá esse pop up, Você terá duas opções asset ou bound.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24c.PNG)
+
+Asset você criar um arquivo que pode ser reutilizado em outros prefabs.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24d.PNG)
+
+Ou Bound que é para esse objeto específico.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/24e.PNG)
+` Usaremos Bound!! ` 
+
+A tela do Behaviour Tree é bem parecida com a do Dialogue Tree Aperte o botão direito.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25.PNG)
+E você terá essa tela.
+* **Action** insere um bloco para criar uma ação que o dono dessa tree vai fazer
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25a.PNG)
+
+* **Condition** insere um bloco para criar uma condição para que algo aconteça.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25b.PNG)
+* **Composites** servem para controlar o fluxo dos blocos.
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25c.PNG)
+
+
+
+
+
+
+
+
+
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25d.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25e.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25f.PNG)
