@@ -83,40 +83,103 @@ Usando o Botão abaixo.
 
 ### Montando um Diálogo
 
-
-
-
-
-
+Crie uma caixa Say ela você verá que nela temos um START em cima dela, E por ela que o Dialogo se da inicio.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14.PNG)
+Clicando nessa caixa você verá o uma caixa no canto esquerdo superior nela temos
+* Uma caixa onde podemos adicionar um texto.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14a.PNG)
+
+* Uma caixa para adicionar um áudio que será tocado quando aquele diálogo for chamado 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14b.PNG)
+
+* Uma selection Box onde você pode selecionar um interlocutor como base ele vem apenas com um **INSTIGATOR**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/14c.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/15.PNG)
+
+Para adicionar novo interlocutores volte no Game Object  com a Dialogue Tree e em Dialogue Actor Parameters clique em Add Actor Parameter.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/07.PNG)
 
+Ao adicionar você verá que aparece 2 parâmetros 1 para você colocar o nome do actor e um campo para Dialogue Actor.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/15a.PNG)
 
+Para adicionar um Dialogue Actor aqui precisamos ter um personagem que tenha esse componente, vamos adicionar ele no nosso Player que fizemos na primeira parte deste tutorial.Clique nele e então em Add Componente.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16.PNG)
+
+Bosque por Dialogue Actor.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16a.PNG)
+
+No componente Dialogue actor você verá alguns parâmetros.
+
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16b.PNG)
+
+* Primeiro o Nome do Actor.
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16c.PNG)
+
+* Depois Portait, que é uma imagem que aparecerá quando esse actor for acionado A.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16d.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16e.PNG)
+
+
+* A cor do texto que esse Actor terá.
+
+![Image of Motion Controll.
+Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16e.PNG)
+
+* As configuração de posição do diálogo desse actor.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/16f.PNG)
+
+* Agora voltando na Dialogue Tree mude o nome  do actor para qual você desejar e adicione o  Dialogue Actor do player.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/17.PNG)
+
+Agora com o Dialogue Actor criado podemos ver como possível interlocutor para as caixas de diálogo.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/18.PNG)
+
+Agora vamos duas caixas de diálogo .
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19.PNG)
+
+E uma caixa de controle FINISH.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19a.PNG)
+
+Escolha seu Player como um interlocutor e escreva um diálogo.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19b.PNG)
+
+Ponha Instigator e ponha a resposta para o diálogo.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19c.PNG)
+
+Você deve ter algo parecido com isso.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/19d.PNG)
+
+
+
+
+
+
+
+
+
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20a.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20ab.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20b.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/20c.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/21.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/22.PNG)
