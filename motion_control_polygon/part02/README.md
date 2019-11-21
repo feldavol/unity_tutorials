@@ -255,24 +255,38 @@ E você terá essa tela.
 * **Condition** insere um bloco para criar uma condição para que algo aconteça.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25b.PNG)
+
 * **Composites** servem para controlar o fluxo dos blocos.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25c.PNG)
 
-
-
-
-
-
-
-
-
-
+` Cada Composites tem uma característica diferente que faz com que você possa criar diversas lógicas para comportamento diferente abaixo tem a lista com todos `
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25d.PNG)
+
+* **Decorators**  servem para adicionar um novo comportamento para um ramo da tree.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25e.PNG)
+
+` Assim como os Composites existem vários decorators e cada um com uma peculiaridade abaixo tem a lista com todos `
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25f.PNG)
+
+* **Nested**  com ele você pode criar um nó que leva para outra Behaviour Tree ou State machine
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25h.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/25i.PNG)
+
+## Montando Behaviour Tree
+
+
+
+
+
+
+
+
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26a.PNG)
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26b.PNG)
