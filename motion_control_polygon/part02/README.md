@@ -279,72 +279,196 @@ E você terá essa tela.
 
 ## Montando Behaviour Tree
 
+Vamos montar nosso comportamento simples visando apenas acionar um diálogo quando um objeto entra em um trigger. Por enquanto sem usar comandos adicionais apenas.
 
-
-
-
-
-
-
+Entre em Composites.
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26.PNG)
+
+E selecione Sequencer.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26a.PNG)
+
+Depois adicione um Condition.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26b.PNG)
+
+E um Action.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26c.PNG)
+
+Você terá isso, veja que nosso sequencer e o nosso **START**,  ou seja a raiz da nossa árvore. 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26d.PNG)
+
+Selecione o START e na caixa no canto superior esquerdo acione a check box de Dynamic.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26e.PNG)
+
+Agora aperte na caixa do Condition (A que tem o  **?**) e clique em **Assign Condition Task**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26f.PNG)
+
+Você terá essa tela clique na busca.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26g.PNG)
+
+E busque por **Trigger**, você vai selecionar em System Events o **Check Trigger**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26h.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26i.PNG)
+
+Em condition agora você terá a caixa abaixo. Escolha **Check Trigger Type** com **Trigger Enter** e marque a checkbox do **Specified Tag Only** 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26j.PNG)
+
+Vai aparecer um **Object Tag** selecione a Tag **Player**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26k.PNG)
+
+Agora selecione a caixa do action( A que tem o **!**) e clique em **Assign Action Task**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26l.PNG)
+
+Você terá essa janela clique na busca e procure por **Dialogue**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26m.PNG)
+
+Selecione a **Star Dialogue Tree**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26n.PNG)
+
+Agora na janela do Action você terá um Start Dialogue Tree, você perceberá que o **Dialogue Tree Controller** está vazio.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26o.PNG)
+
+Clique e arraste na sua Dialogue Tree para esse campo, de acordo com a imagem a seguir.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26p.PNG)
+
+E agora faça as ligações dos blocos com o a partir do seu bloco compositor sequencer e você terá algo parecido com isso.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/26q.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27a.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27b.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27c.PNG)
+
+## Preparando Dialogue Canvas
+Entre nas pastas seguir
+
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27.PNG) ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27a.PNG)
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27b.PNG) ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27c.PNG)
+
+E selecione o prefab **@DialogeUGUI** e coloque ele na cena
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/27d.PNG)
+
+Execute  e se aproxime do seu NPC se tudo esiver correto, você terá isso.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/28.PNG)
+
+Com isso você tem um diálogo simple e funcional na sua cena. 
+Agora vamos tentar melhorar isso tornar mais variado e funcional.
+
+## EXTRA 
+
+### Novas Dialogues Tree
+ Vamos criar novas árvores de diálogo, Você pode repetir o processo da anterior  ou duplicar a já existente e configurar a partir daí.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/29.PNG)
+
+Nessa nova Tree vamos em Brach e selecionar **Multiple Choice** 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/29a.PNG)
+
+Você terá o seguinte bloco.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/29b.PNG)
+
+Ao clicar nele no canto esquerdo superior você verá um botão de **Add Choice**, eu clique 3 vezes para adicionar 3 alternativas você pode adicionar quantas vezes quiser e esse será o número de opções que você terá **(Só não exagere )**.
+
+Veja que em cada bloco você tem um espaço para o texto um para um áudio e uma assing Condition Task.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/29c.PNG)
+
+Veja como foi montada nossa Tree e se base no exemplo para construir a sua.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/29d.PNG)
+
+Vamos fazer mais uma
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30.PNG)
+
+Agora usando o Branch **Probability Selector**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30a.PNG)
+
+Ele esse é o bloco dele
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30b.PNG)
+
+Ao clicar nele você verá uma informação que diz para fazer algumas conexões antes
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30c.PNG)
+
+Eis um exemplo de conexões feitas com simples blocos de Fala(** Say ** )
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30d.PNG)
+
+A fazer as conexões clique novamente no bloco do **Probability Selector** veja como está agora. Note que cada conexão tem uma porcentagem e um peso que faz com que elas acontecem com mais facilidade. 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30e.PNG)
+
+Um exemplo de como uma a Tree deve ficar 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/30f.PNG)
+
+### Criando mais NPCs
+Primeiramente para que o nosso NPC não fique simplesmente parado adicione no **Controller** do **Animator** desse NPC, o mesmo Controller use o mesmo usado na parte 1 para o player que é o  **Humanoid**
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31.PNG)
 
+Agora duplique esse NPCe expando o objeto
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31a.PNG)
+
+Selecione o objeto interno dele que está visível e desative ele
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31b.PNG)
+
+ e depois escolha que estava inativo e ative ele
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31c.PNG)
+
+Mude a posição de dele para não sobrepor o outro.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31d.PNG)
+
+E mude também o ** Name ** do ** Dialogue Actor ** dele 
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/31e.PNG)
+
+Clique para editar a Behaviour Tree dele.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/32.PNG)
+
+Clique na **Action** que foi usada para começar o diálogo
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/32a.PNG)
 
+E altere a dialogue tree vinculada nele.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/32b.PNG)
+
+por uma das criadas anteriormente.
+
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/32c.PNG)
 
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/33.PNG)
+Volte e selecione a dialogue tree que você colocou para esse personagem e altere o *Dialogue Actor Parameters* e ponha o desse personagem que você fez .
 
 ![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/34.PNG)
 
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/35a.PNG)
-![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/35.PNG)
+Repita o processo para outros personagens.
 
+![Image of Motion Controll Tutorial](https://raw.githubusercontent.com/feldavol/unity_tutorials/master/motion_control_polygon/images/part02/33.PNG)
 
-
+ POR ENQUANTO PARA ESSA PARTE É SÓ,MAS ADICIONAREMOS MAIS CONTEÚDO USANDO NODE CANVAS PARA CRIAÇÃO DE DIÁLOGOS
 
 
 
